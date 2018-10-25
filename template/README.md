@@ -9,7 +9,7 @@ template:
 
 
 1. function template
-template <class type> ret-type func_name(parameter list)
+template <class type> ret-type FuncName(parameter list)
 {
 
 }
@@ -18,6 +18,6 @@ template <class type> ret-type func_name(parameter list)
 class template: serveral parameters
 
 template <class type1, class type2> 
-class class_name {
+class ClassName {
 
 }
