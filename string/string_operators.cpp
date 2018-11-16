@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int main() {
+int test() {
     string abc = "abc";
     abc.append("xxx");
     cout << abc << endl;
@@ -23,6 +23,19 @@ int main() {
         cout << "haha" << endl;
     cout << pos << endl;
 
+    return 0;
+}
+
+bool append() {
+    string abc;
+    if (abc == "")
+        cout << "abc is empty" << endl;
+    abc = abc.append("hello").append("world");
+    cout << abc << endl;
+}
+
+int main() {
+    append();
     return 0;
 }
 
