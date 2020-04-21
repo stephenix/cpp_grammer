@@ -9,5 +9,11 @@ void thread_task() {
 int main() {
     thread t(thread_task);
     t.join();
+    for (int i = 0; i < 3; i ++) {
+        thread tt([i]{
+                cout << i << endl;
+                });
+        tt.join();
+    }
     return 0;
 }
